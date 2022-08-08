@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/WeatherApp/style.css">
+    <title>Weather App </title>
+</head>
+<body>
+    <div class="main">
+
+        <div class="wrapper">
+            
+            <div > <h2 class="header">Weather App</h2> </div>
+            <div class="input-city">
+                <input id="input-city" type="text" placeholder="city">
+            </div>
+            <button id="search-btn" onclick="searchCity()">Search</button>
+
+
+            <div class="card-header">
+              <h4 id="city-name" >Demo City</h4>
+            </div>
+            <div class="card-body">
+              <h1 id="weather-type" class="card-title">Demo weather type</h1>
+              <ul >
+                <li>Temp: <span id="temp">--</span>F</li>
+                <li>Min Temp: <span id="min-temp">--</span>F</li>
+                <li>Max Temp: <span id="max-temp">--</span>F</li>
+              </ul>
+            </div>
+
+            
+
+
+        </div>
+        
+    </div>
+    <script src="/WeatherApp/script.js"></script>
+</body>
+</html>
