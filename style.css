@@ -1,5 +1,5 @@
 html{
-    background-image: url('/weatherbackground.jpg');
+    background-image: url('weatherbackground.jpg');
     background-repeat: no-repeat;
     height: 100%;
     color: white;
